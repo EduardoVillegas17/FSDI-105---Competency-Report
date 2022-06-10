@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>jQuery</title>
+</head>
+<body>
+    <header class="site-register">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="users.html">users</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    </header>
+    <main >
+      <p class="alert-error" id="alertError">
+        Invalid credentials!!!
+      </p>
+        <div>
+            <label>Username</label>
+            <input type="username" id="txtEmail" placeholder="Enter your name">
+            <label>Password:</label>
+            <input  type="password" id="txtPassword" placeholder="Enter your password">
+            <button id="btnLogin">Login</button>
+            <a href="register.html">Not a user?</a>
+        </div>
+        <!-- <div>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+        </div> -->
+        <header class="site-init">
+          <h1></h1>
+        </header>
+    </main>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <script src="login.js"></script>
+    <script src="storeManager.js"></script>
+</body>
+</html>
